@@ -10,7 +10,8 @@
 # UTS GRAFIKA KOMPUTER
 
 # SCREENSHOT PROGRAM
-![image](https://github.com/user-attachments/assets/fb721b12-001b-412c-a71f-1f4254b6091a)
+![image](https://github.com/user-attachments/assets/fb721b12-001b-412c-a71f-1f4254b6091a)![image](https://github.com/user-attachments/assets/ace29444-a309-4fd5-ac11-da2f02edefb4)
+
 
 
 
