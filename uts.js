@@ -3,11 +3,22 @@ function setup() {
 }
 
 function draw() {
-  background(135, 205, 235);
+  let ms = millis(); // Get the number of milliseconds since the program started
+  let timeOfDay = ms % 24000; // Cycle through 24 seconds to represent a full day
   
-  //Gambar Matahari
-  fill("yellow");
-  stroke("orange");
+  if (timeOfDay < 12000) {
+    // Daytime settings
+    background(135, 205, 235);
+    fill("yellow");
+    stroke("orange");
+  } else {
+    // Nighttime settings
+    background(0, 0, 51); // Dark blue background
+    fill("white"); // White moon
+    stroke("lightgrey");
+  }
+
+  //Gambar Matahari atau Bulan
   strokeWeight(10);
   circle(320, 170, 100);
     
